@@ -1,13 +1,18 @@
-import { useTranslation } from "react-i18next";
 import { LanguageProvider } from "./context/LanguageContext";
+import GlobalStyles from "./styles/GlobalStyles";
+import AppLayout from "./ui/AppLayout";
 
 function App() {
-  const { t } = useTranslation();
   return (
-    <LanguageProvider>
-      <h1>{t("welcome_message")}</h1>
-    </LanguageProvider>
+    <>
+      <GlobalStyles />
+      <LanguageProvider>
+        <AppLayout />
+      </LanguageProvider>
+    </>
   );
 }
 
 export default App;
+
+
