@@ -4,9 +4,11 @@ interface RowProps {
   type?: "horizontal" | "vertical";
 }
 
-const Row = styled.div<RowProps>`
+const Row = styled.div.attrs<RowProps>((props) => ({
+  type: props.type || "vertical",
+}))<RowProps>`
   display: flex;
-
+  
   ${(props) =>
     props.type === "horizontal" &&
     css`
@@ -21,10 +23,6 @@ const Row = styled.div<RowProps>`
       gap: 1.6rem;
     `}
 `;
-
-Row.defaultProps = {
-  type: "vertical",
-};
 
 export default Row;
 

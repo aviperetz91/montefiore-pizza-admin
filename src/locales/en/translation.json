@@ -1,3 +1,41 @@
 {
-  "welcome_message": "Welcome"
+  "welcome_message": "Welcome",
+  "pages": {
+    "login": {
+      "title": "Login"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "test": "TEST"
+    },
+    "account": {
+      "title": "Update your account",
+      "update_user_data": {
+        "title": "Update user data",
+        "description": "Update user data form"
+      },
+      "update_password": {
+        "title": "Update password",
+        "description": "Update user password form"
+      }
+    },
+    "page_not_found": {
+      "title": "The page you are looking for could not be found",
+      "go_back": "Go back"
+    },
+    "menu": {
+      "title": "Menu",
+      "test": "TEST"
+    },
+    "orders": {
+      "title": "All Orders",
+      "test": "TEST"
+    },
+    "settings": {
+      "title": "Update settings"
+    },
+    "users": {
+      "title": "Create a new user"
+    }
+  }
 }

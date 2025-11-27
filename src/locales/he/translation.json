@@ -1,3 +1,41 @@
 {
-  "welcome_message": "ברוכים הבאים"
+  "welcome_message": "ברוכים הבאים",
+  "pages": {
+    "login": {
+      "title": "התחברות"
+    },
+    "dashboard": {
+      "title": "לוח בקרה",
+      "test": "בדיקה"
+    },
+    "account": {
+      "title": "עדכן את החשבון שלך",
+      "update_user_data": {
+        "title": "עדכן נתוני משתמש",
+        "description": "טופס עדכון נתוני משתמש"
+      },
+      "update_password": {
+        "title": "עדכן סיסמה",
+        "description": "טופס עדכון סיסמת משתמש"
+      }
+    },
+    "page_not_found": {
+      "title": "הדף שחיפשת לא נמצא",
+      "go_back": "חזור"
+    },
+    "menu": {
+      "title": "תפריט",
+      "test": "בדיקה"
+    },
+    "orders": {
+      "title": "כל ההזמנות",
+      "test": "בדיקה"
+    },
+    "settings": {
+      "title": "עדכן הגדרות"
+    },
+    "users": {
+      "title": "צור משתמש חדש"
+    }
+  }
 }
