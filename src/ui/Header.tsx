@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import styled from "styled-components";
 
 const StyledHeader = styled.header`
@@ -7,7 +8,8 @@ const StyledHeader = styled.header`
 `;
 
 function Header() {
-  return <StyledHeader>HEADER</StyledHeader>;
+  const { t } = useTranslation();
+  return <StyledHeader>{t("header.title")}</StyledHeader>;
 }
 
 export default Header;

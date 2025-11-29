@@ -1,11 +1,14 @@
 {
   "welcome_message": "Welcome",
+  "header": {
+    "title": "Header"
+  },
   "pages": {
     "login": {
       "title": "Login"
     },
     "dashboard": {
-      "title": "Dashboard",
+      "title": "Home",
       "test": "TEST"
     },
     "account": {
@@ -35,7 +38,7 @@
       "title": "Update settings"
     },
     "users": {
-      "title": "Create a new user"
+      "title": "Users"
     }
   }
 }

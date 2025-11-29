@@ -1,11 +1,14 @@
 {
   "welcome_message": "ברוכים הבאים",
+  "header": {
+    "title": "Header"
+  },
   "pages": {
     "login": {
       "title": "התחברות"
     },
     "dashboard": {
-      "title": "לוח בקרה",
+      "title": "ראשי",
       "test": "בדיקה"
     },
     "account": {
@@ -35,7 +38,7 @@
       "title": "עדכן הגדרות"
     },
     "users": {
-      "title": "צור משתמש חדש"
+      "title": "משתמשים"
     }
   }
 }
